@@ -4,7 +4,7 @@ session_start();
 
 // Verificar si el usuario ya ha iniciado sesión, si es así, redirigirlo a la página de inicio
 if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) {
-  header("location: PaginaPrincipal.php");
+  header("location: index.php");
   exit;
 }
 
@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $_SESSION["correo"] = $fila['correo_electronico'];
       $_SESSION["usuario"] = $fila['nombres'];
       // Redirigir al usuario a la página de bienvenida
-      header("location: PaginaPrincipal.php");
+      header("location: index.php");
     } else {
       echo "Contraseña incorrecta.";
     }
@@ -105,7 +105,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
       <a href="Registro.php" class="btn btn-outline-secondary btn-lg">Registrarse</a>
       <button type="button" class="btn btn-outline-secondary ml-2"
-        onclick="location.href='paginaprincipal.php'">Volver</button>
+        onclick="location.href='index.php'">Volver</button>
     </form>
   </div>
 

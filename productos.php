@@ -39,7 +39,7 @@
             </div>
         </form>
         <button type="button" class="btn btn-outline-info ml-2 mt-3"
-            onclick="location.href='PaginaPrincipal.php'">Volver a página principal</button>
+            onclick="location.href='index.php'">Volver a página principal</button>
     </header>
     <div class="container">
         <!-- Filtro lateral -->
