@@ -1,0 +1,20 @@
+/* Estilos personalizados */
+
+
+
+
+
+/* Ajustar el margen superior del contenido principal */
+.container {
+    margin-top: 50px;
+  }
+  
+
+  
+  /* Añadir margen inferior al pie de página */
+  body {
+    margin-bottom: 70px; /* Altura del pie de página + 20px */
+  }
+  
+
+  

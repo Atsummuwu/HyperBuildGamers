@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye los elementos equitativamente */
+}
+
+.producto {
+    width: 45%; /* Ajusta el ancho de cada producto */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.producto img {
+    width: 70%;
+    height: auto;
+}
+
+.producto .info {
+    padding: 10px;
+}
+
+.producto h2 {
+    margin-top: 0;
+}
+
+.producto p {
+    margin: 5px 0;
+}
+
+.producto .precio {
+    font-weight: bold;
+    color: #009688;
+}
+
+ul.dropdown-menu.show {width: max-content;background-color: #f8f9fa;}
+
+button.btn.btn-light {
+    padding: 5px;
+    margin: 5px;
+}
